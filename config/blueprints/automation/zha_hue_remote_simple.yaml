@@ -1,6 +1,6 @@
 ---
 blueprint:
-  name: ZHA - Philips Hue Dimmer Remote Simple Light Control (RWL021)
+  name: ZHA - Philips Hue Dimmer Remote Simple Light Control (RWL020)
   description: |
     A simple Hue Remote blueprint to control lights.
 
@@ -17,12 +17,12 @@ blueprint:
   input:
     remote:
       name: Remote
-      description: Philips Hue Remote (RWL021) to use
+      description: Philips Hue Remote (RWL020) to use
       selector:
         device:
           integration: zha
           manufacturer: Philips
-          model: RWL021
+          model: RWL020
     light:
       name: Light(s)
       description: The light(s) to control
